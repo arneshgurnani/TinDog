@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+}
+/*******************************************ID Style Sheets****************************************************/
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  color: #8f8f8f;
+  padding: 7% 15%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+}
+
+#footer {
+  color: #8f8f8f;
+  padding: 3%;
+  text-align: center;
+}
+/*******************************************Classes Style Sheets****************************************************/
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.custom-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.dog-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 15%;
+}
+
+/* Features */
+.feature-fonts{
+  color: #ef8172;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-fonts:hover {
+  color: #ff4c68;
+}
+.feature-align {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonials */
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 5% 5% 0 5%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+/* Press */
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing-col {
+  padding: 3% 2%;
+}
+/* CTA */
+.cta-h3 {
+  width: 60%;
+  margin: auto;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.0rem;
+  padding: 5% 5% 0 5%;
+}
+
+/* Footer */
+.footer-links {
+  margin: 1%;
+}
+
+.footer-links:hover {
+  color: #ff4c68;
+}
+/*******************************************Media Query****************************************************/
+@media (max-width: 1024px) {
+  .dog-img {
+    transform: rotate(0);
+    margin-right: 15%
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 715px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+      font-size: 2rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .cta-h3 {
+      font-size: 2rem;
+      width: 80%;
+  }
+}
