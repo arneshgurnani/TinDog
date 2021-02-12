@@ -1,1 +1,2 @@
-Host: https://arneshgurnani.github.io/TinDog/
+# TinDog
+Link: https://arneshgurnani.github.io/TinDog/
