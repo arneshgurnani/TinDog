@@ -1,2 +1,1 @@
-#TinDog
-https://arneshgurnani.github.io/TinDog/
+Host: https://arneshgurnani.github.io/TinDog/
